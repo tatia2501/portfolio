@@ -1,0 +1,118 @@
+/*/ ffd5ea  ff69b4  ff168b  */
+/* dae3ff  6d91ff   1951ff   */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffd5ea;
+}
+
+main {
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+    background-color: #ffd5ea;
+    /*font-family: 'Nunito', sans-serif;*/
+    font-family: 'Balsamiq Sans', cursive;
+    text-decoration: none;
+    color: #ff168b;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #dae3ff;
+}
+
+a {
+    text-decoration: none;
+    color: #6d91ff;
+}
+
+.info {
+    width: 35%;
+    margin: 10px;
+    padding: 10px;
+}
+
+.projects {
+    width: 60%;
+    margin: 10px;
+    padding: 10px;
+}
+
+#photo {
+    width: 100%;
+    max-width: 200px;
+    max-height: 300px;
+    padding: 1px;
+    border: 10px dotted #ff69b4;
+}
+
+pre {
+    color: #1951ff;
+}
+
+.lvl1_info {
+    font-size: x-large;
+    color: #1951ff;
+}
+
+.lvl2_info {
+    font-size: larger;
+}
+
+.project_container {
+    max-width: 600px;
+    padding: 5px;
+    margin: 5px;
+    border: 5px dotted #ff69b4;
+    border-radius: 10px;
+    background-color: #dae3ff;
+}
+
+.project_name {
+    font-size: x-large;
+    margin: 5px;
+}
+
+.lang_tags {
+    display: flex;
+    flex-direction: row;
+    padding: 1px;
+    margin: 5px 2px;
+}
+
+.lang {
+    background-color: #ffd5ea;
+    margin: 5px 2px;
+    padding: 2px;
+    border: 2px dotted #ff69b4;
+    border-radius: 5px;
+    font-size: small;
+}
+
+.project_link {
+    margin: 5px;
+    padding: 2px;
+    border: 2px solid #6d91ff;
+    border-radius: 5px;
+}
+
+.down_btn {
+    background-color: #ffd5ea;
+    border-color: #ff69b4;
+    color: #ff168b;
+}
+
+.up_btn {
+    background-color: #ffd5ea;
+    border-color: #ff69b4;
+    color: #ff168b;
+    visibility: hidden;
+}
+
+@media screen and (max-width: 700px) {}
