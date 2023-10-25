@@ -9,7 +9,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Nunito:wght@300&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="script.js"></script>
 </head>
 <body>
 <main>
@@ -49,8 +48,8 @@
                 <p class="lang">JS</p>
                 <p class="lang">CSS</p>
             </div>
-            <a class="project_link" href="https://github.com/tatia2501/is-web-y24-kokos">github</a><br><br>
-            <a class="project_link" href="https://web-tatia.onrender.com/">попробовать</a>
+            <a class="project_link" href="https://github.com/tatia2501/is-web-y24-kokos">посмотреть код проекта на github</a><br><br>
+            <a class="project_link" href="https://web-tatia.onrender.com/">посмотреть развернутый проект</a>
             <p>Реализация веб-приложения на языке программирования TypeScript с использованием
                 фреймворка Nest и стандартных для веб-приложений технологий: HTML, CSS, Javascript.
                 Использование Express в качестве веб-сервера, WebSockets для обмена сообщениями между
@@ -58,10 +57,10 @@
                 для сохранения и получения данных, Render.com в качестве хостинга.</p>
             <button class="down_btn" id="kokos_down_btn">&#9660;</button>
             <button class="up_btn" id="kokos_up_btn">&#9650;</button>
-            <div>
-                <template>
-                    <div>
-
+            <div id="kokos_container">
+                <template id="kokos_template">
+                    <div class="pics">
+                        <img class="imgBx" id="kokos_imgBx" alt="picture">
                     </div>
                 </template>
             </div>
@@ -73,20 +72,20 @@
                 <p class="lang">JS</p>
                 <p class="lang">CSS</p>
             </div>
-            <a class="project_link" href="https://github.com/tatia2501/quest-app">github</a><br><br>
-            <a class="project_link" href="https://quest-app-k06z.onrender.com/">попробовать</a>
+            <a class="project_link" href="https://github.com/tatia2501/quest-app">посмотреть код проекта на github</a><br><br>
+            <a class="project_link" href="https://quest-app-k06z.onrender.com/">посмотреть развернутый проект</a>
             <p>Реализация мобильного веб-приложения с использованием ar-технологий,
                 которое использует камеру и геопозиционирование. Использование библиотек
                 ARToolKit и Three.js для создания и отображения интерактивной 3D графики,
                 веб-компонента model-viewer для отображения интерактивных 3D-модей и Geolocation
                 API для определения местоположения пользователя. Использование PostgreSQL
                 в качестве базы данных, ОРМ Prisma для сохранения и получения данных.</p>
-            <button class="down_btn">&#9660;</button>
-            <button class="up_btn">&#9650;</button>
-            <div>
-                <template>
-                    <div>
-
+            <button class="down_btn" id="quest_down_btn">&#9660;</button>
+            <button class="up_btn" id="quest_up_btn">&#9650;</button>
+            <div id="quest_container">
+                <template id="quest_template">
+                    <div class="pics">
+                        <img class="imgBx2" id="quest_imgBx" alt="picture">
                     </div>
                 </template>
             </div>
@@ -98,22 +97,23 @@
                 <p class="lang">HTML</p>
                 <p class="lang">CSS</p>
             </div>
-            <a class="project_link" href="https://github.com/team-5-tutor-project">github</a>
+            <a class="project_link" href="https://github.com/team-5-tutor-project">посмотреть код проекта на github</a>
             <p>Создание сервиса для поиска репетиторов со встроенным поиском и
                 мессенджером. Использование Microsoft.AspNetCore.Mvc для создания
                 http-сервера и подключения к БД. Использование ASP.NET Core Blazor
                 WebAssembly для разработки frontend.</p>
-            <button class="down_btn">&#9660;</button>
-            <button class="up_btn">&#9650;</button>
-            <div>
-                <template>
-                    <div>
-
+            <button class="down_btn" id="tutor_down_btn">&#9660;</button>
+            <button class="up_btn" id="tutor_up_btn">&#9650;</button>
+            <div id="tutor_container">
+                <template id="tutor_template">
+                    <div class="pics">
+                        <img class="imgBx" id="tutor_imgBx" alt="picture">
                     </div>
                 </template>
             </div>
         </div>
     </div>
+    <script src="script.js"></script>
 </main>
 <footer>
     <pre>  /\_____/\

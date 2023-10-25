@@ -6,15 +6,16 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #ffd5ea;
+    background-color: black;
+    /*background-color: #ffd5ea;*/
 }
 
 main {
     max-width: 1000px;
     display: flex;
     justify-content: center;
-    background-color: #ffd5ea;
-    /*font-family: 'Nunito', sans-serif;*/
+    background-color: black;
+    /*background-color: #ffd5ea;*/
     font-family: 'Balsamiq Sans', cursive;
     text-decoration: none;
     color: #ff168b;
@@ -24,7 +25,8 @@ footer {
     width: 100%;
     display: flex;
     justify-content: center;
-    background-color: #dae3ff;
+    background-color: black;
+    /*background-color: #dae3ff;*/
 }
 
 a {
@@ -71,7 +73,8 @@ pre {
     margin: 5px;
     border: 5px dotted #ff69b4;
     border-radius: 10px;
-    background-color: #dae3ff;
+    background-color: black;
+    /*background-color: #dae3ff;*/
 }
 
 .project_name {
@@ -106,6 +109,7 @@ pre {
     background-color: #ffd5ea;
     border-color: #ff69b4;
     color: #ff168b;
+    margin-bottom: 10px;
 }
 
 .up_btn {
@@ -113,6 +117,50 @@ pre {
     border-color: #ff69b4;
     color: #ff168b;
     visibility: hidden;
+    margin-bottom: 10px;
 }
 
-@media screen and (max-width: 700px) {}
+.imgBx {
+    width: 100%;
+}
+
+#quest_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.pics {
+    padding: 2px 10px;
+}
+
+.imgBx2 {
+    width: 200px;
+}
+
+@media screen and (max-width: 700px) {
+    main {
+        max-width: 700px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .info {
+        width: 90%;
+        margin: 2px;
+        padding: 5px;
+    }
+
+    .projects {
+        width: 90%;
+        margin: 2px;
+        padding: 5px;
+    }
+
+    .lvl1_info {
+        font-size: x-large;
+        margin: 1px;
+    }
+}
