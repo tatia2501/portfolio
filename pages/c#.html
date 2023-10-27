@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <title>Резюме</title>
+  <meta charset="UTF-8">
+  <meta name="keywords" content="Интернет-магазин">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Nunito:wght@300&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<main>
+  <div class="info">
+    <img id="photo" src="../pictures/photo.jpg" alt="it's me">
+    <p class="lvl1_info">Татьяна Голякова</p>
+    <p class="lvl2_info">Junior-разработчик</p>
+    <p>Телефон:
+      <a href="tel:+79210505724">+7-921-050-57-24</a><br>
+      Телеграм:
+      <a href="https://t.me/gol_tatia">@gol_tatia</a><br>
+      Электронная почта:
+      <a href="mailto:gol.tatia@yandex.ru">gol.tatia@yandex.ru</a><br>
+      GitHub:
+      <a href="https://github.com/tatia2501">tatia2501</a><br> </p>
+    <p class="lvl2_info"><b>Образование</b></p>
+    <p><i>2020–2024</i> <br>
+      Университет ИТМО, Санкт-Петербург <br>
+      <b>факультет:</b> информационных технологий и программирования <br>
+      <b>направление подготовки:</b> информационные системы и технологии</p>
+    <p class="lvl2_info"><b>Навыки</b></p>
+    <p><b>Языки:</b> HTML, JavaScript, CSS, C#, Java, C/C++, Python <br>
+      <b>Tools:</b> GitHub, Git, MS SQL, PostgreSQL <br>
+      <b>IDE:</b> Visual Studio, JetBrains IDE <br>
+      <b>Английский:</b> B2 – upper-intermediate</p>
+  </div>
+  <div class="projects">
+    <p class="lvl1_info">Опыт работы</p>
+    <p> <b> ООО «ТехПром-ИТ» </b> <br>
+      <i>ноябрь-декабрь 2022</i> <br>
+      Unity-разработчик</p>
+    <p class="lvl1_info">Проекты</p>
+    <div class="project_container">
+      <p class="project_name">Tutor Project</p>
+      <div class="lang_tags">
+        <p class="lang">C#</p>
+        <p class="lang">HTML</p>
+        <p class="lang">CSS</p>
+      </div>
+      <a class="project_link" href="https://github.com/team-5-tutor-project">посмотреть код проекта на github</a>
+      <p>Создание сервиса для поиска репетиторов со встроенным поиском и
+        мессенджером. Использование Microsoft.AspNetCore.Mvc для создания
+        http-сервера и подключения к БД. Использование ASP.NET Core Blazor
+        WebAssembly для разработки frontend.</p>
+      <button class="down_btn" id="tutor_down_btn">&#9660;</button>
+      <button class="up_btn" id="tutor_up_btn">&#9650;</button>
+      <div id="tutor_container">
+        <template id="tutor_template">
+          <div class="pics">
+            <img class="imgBx" id="tutor_imgBx" alt="picture">
+          </div>
+        </template>
+      </div>
+    </div>
+    <div class="project_container">
+      <p class="project_name">Codegen</p>
+      <div class="lang_tags">
+        <p class="lang">C#</p>
+        <p class="lang">Java</p>
+      </div>
+      <a class="project_link" href="https://github.com/tatia2501/is-tech-y24/tree/main/Codegen">посмотреть код проекта на github</a>
+      <p>Создание http-сервера на языке Java (работа с PostgreSQL). Создание
+        парсера для сервера для получения семантической модели. Реализация
+        генерации http-клиента для сервера (работа с Roslyn API).</p>
+    </div>
+    <div class="project_container">
+      <p class="project_name">Reports</p>
+      <div class="lang_tags">
+        <p class="lang">C#</p>
+      </div>
+      <a class="project_link" href="https://github.com/tatia2501/is-oop-y24/tree/main/Reports">посмотреть код проекта на github</a>
+      <p>Проектирование и создание системы генерирования отчетов для отдельных работников
+        и руководителей. Реализация многослойной архитектуры. Применение SQL и баз данных.</p>
+    </div>
+    <div class="project_container">
+      <p class="project_name">Plugin</p>
+      <div class="lang_tags">
+        <p class="lang">Java</p>
+      </div>
+      <a class="project_link" href="https://github.com/tatia2501/is-DevTools-y24-plugin">посмотреть код проекта на github</a>
+      <p>Разработка плагина для интегрированной среды разработки (Intellij IDEA).</p>
+    </div>
+    <div class="project_container">
+      <p class="project_name">Roslyn Analyzer</p>
+      <div class="lang_tags">
+        <p class="lang">C#</p>
+      </div>
+      <a class="project_link" href="https://github.com/tatia2501/is-tech-y24/tree/main/AnalyzerTemplate">посмотреть код проекта на github</a>
+      <p>Создание анализатора и кодфиксера с использованием Roslyn. Реализация unit-тестирования для проверки работы программы.</p>
+    </div>
+    <div class="project_container">
+      <p class="project_name">Banks</p>
+      <div class="lang_tags">
+        <p class="lang">C#</p>
+      </div>
+      <a class="project_link" href="https://github.com/tatia2501/is-oop-y24/tree/main/Banks">посмотреть код проекта на github</a>
+      <p>Проектирование и создание системы работы банка (управление системой банковской сети,
+        создание и управление счетов, работа с клиентами).</p>
+    </div>
+    <div class="project_container">
+      <p class="project_name">Generic Algorithm</p>
+      <div class="lang_tags">
+        <p class="lang">C#</p>
+      </div>
+      <a class="project_link" href="https://github.com/tatia2501/is-tech-y24/tree/main/GeneticAlgoTemplate">посмотреть код проекта на github</a>
+      <p>Реализация генетического алгоритма с визуализацией. Анализ работы
+        программы в dotTrace, dotMemory. Работа по оптимизации кода.</p>
+    </div>
+  </div>
+  <script src="pages_scr.js"></script>
+</main>
+<footer>
+    <pre>  /\_____/\
+ /  o   o  \
+( ==  ^  == )
+ )         (</pre>
+</footer>
+</body>
